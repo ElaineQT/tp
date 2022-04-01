@@ -3,23 +3,23 @@
 - [Introduction](#introduction)
 - [Quick Start](#quick-start)
 - [Features](#features)
-    * [Create a new flight route: `addRoute`](#create-a-new-flight-route---addroute-)
-    * [Find availability on existing flight route: `findRoute`](#find-availability-on-existing-flight-route---findroute-)
-    * [List all flight routes: `listRoute`](#list-all-flight-routes---listroute-)
-    * [Delete a flight route: `deleteRoute`](#delete-a-flight-route---deleteroute-)
-    * [Add a customer: `addCustomer`](#add-a-customer---addcustomer-)
-    * [Delete a customer: `deleteCustomer`](#delete-a-customer---deletecustomer-)
-    * [List all customers: `listCustomer`](#list-all-customers---listcustomer-)
-    * [Find a customer by IC: `findCustomer`](#find-a-customer-by-ic---findcustomer-)
-    * [Create new flight booking: `book`](#create-new-flight-booking---book-)
-    * [Remove flight booking: `deleteBooking`](#remove-flight-booking---deletebooking-)
-    * [View all existing flight booking: `listBooking`](#view-all-existing-flight-booking---listbooking-)
-    * [Add a new Menu Item:  `addMenuItem`](#add-a-new-menu-item----addmenuitem-)
-    * [Delete menu item:  `deleteMenuItem`](#delete-menu-item----deletemenuitem-)
-    * [Listing all menu items: `listMenuItems`](#listing-all-menu-items---listmenuitems-)
-    * [Find menu items by name: `findMenuItemName`](#find-menu-items-by-name---findmenuitemname-)
-    * [Find menu items by type: `findMenuItemType`](#find-menu-items-by-type---findmenuitemtype-)
-    * [Exit the system: `bye`](#exit-the-system---bye-)
+    * [Create a new flight route: `addRoute`](#create-a-new-flight-route-addroute)
+    * [Find availability on existing flight route: `findRoute`](#find-availability-on-existing-flight-route-findroute)
+    * [List all flight routes: `listRoute`](#list-all-flight-routes-listroute)
+    * [Delete a flight route: `deleteRoute`](#delete-a-flight-route-deleteroute)
+    * [Add a customer: `addCustomer`](#add-a-customer-addcustomer)
+    * [Delete a customer: `deleteCustomer`](#delete-a-customer-deletecustomer)
+    * [List all customers: `listCustomer`](#list-all-customers-listcustomer)
+    * [Find a customer by IC: `findCustomer`](#find-a-customer-by-ic-findcustomer)
+    * [Create new flight booking: `book`](#create-new-flight-booking-book)
+    * [Remove flight booking: `deleteBooking`](#remove-flight-booking-deletebooking)
+    * [View all existing flight booking: `listBooking`](#view-all-existing-flight-booking-listbooking)
+    * [Add a new Menu Item:  `addMenuItem`](#add-a-new-menu-item--addmenuitem)
+    * [Delete menu item:  `deleteMenuItem`](#delete-menu-item--deletemenuitem)
+    * [Listing all menu items: `listMenuItems`](#listing-all-menu-items-listmenuitems)
+    * [Find menu items by name: `findMenuItemName`](#find-menu-items-by-name-findmenuitemname)
+    * [Find menu items by type: `findMenuItemType`](#find-menu-items-by-type-findmenuitemtype)
+    * [Exit the system: `bye`](#exit-the-system-bye)
 - [FAQ](#faq)
 - [Command Summary](#command-summary)
 
@@ -59,7 +59,7 @@ ARCS aims to provide a dynamic and concise interface for staff to create, view a
   e.g. in `addMenuItem name/MENU_ITEM_NAME`, `MENU_ITEM_NAME` is a parameter which can be used as `add name/chocolate cake`.
 
 * Items in square brackets are optional.<br>
-  e.g `findRoute fd/FLIGHT_DATE d/DESTINATION s/SOURCE [ ft/FLIGHT_TIME ]` can be used as `findRoute fd/07112029 d/India s/singapore` or as `findRoute fd/02172022 d/singapore s/china ft/15:30`.
+  e.g. `findRoute fd/FLIGHT_DATE d/DESTINATION s/SOURCE [ ft/FLIGHT_TIME ]` can be used as `findRoute fd/07112029 d/India s/singapore` or as `findRoute fd/02172022 d/singapore s/china ft/15:30`.
 
 * Parameters can be in any order.<br>
   e.g. if the command specifies `addMenuItem name/MENU_ITEM_NAME type/MENU_ITEM_TYPE`, `type/MENU_ITEM_TYPE addMenuItem name/MENU_ITEM_NAME` is also acceptable.
